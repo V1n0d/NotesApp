@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MagikRegular';
+    src: url('cwmagik_.eot');
+    src: url('cwmagik_.eot') format('embedded-opentype'),
+         url('cwmagik_.woff') format('woff'),
+         url('cwmagik_.ttf') format('truetype'),
+         url('cwmagik_.svg#MagikRegular') format('svg');
+}

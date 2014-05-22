@@ -1,0 +1,189 @@
+@import url(../fonts/font/cwmagik_.css);
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.wrapper{
+  background: url("../image/mainBG.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width: 100%;
+  height:700px;
+  margin-bottom: -9px;
+}
+
+.form{
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+  padding:70px;
+  text-align: center;
+}
+mainTitle{
+  color:white;
+  font-family: 'MagikRegular';
+  font-size: 70px;
+}
+.title-banner{
+  font-family:"Arial Black", Gadget, sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+}
+.form input, .search_box{
+  border: 2px solid #808080;
+  box-shadow: none;
+  font-size: 14px;
+  margin-bottom: 1em;
+  width: 290px;
+  padding: 12px;
+  margin-top:20px;
+  outline: none;
+  opacity: 0.8;
+  color: #4D4D4D;
+}
+
+.form .submit_note{
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  /*color: #1F8DD6;*/
+  /*font-size: 120%;*/
+  border: 3px solid #fff;
+  color:#fff;
+  font-size: 26px;
+  /*padding: */
+}
+
+.notes_container{
+  background:#f3f3f3;
+}
+
+.notes_wrapper{
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+  padding-top: 75px;
+}
+
+.note{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  box-shadow: 0px 0px 2px #808080;
+}
+
+.note .notes_details{
+  float: left;
+  width: 65%;
+  padding: 10px;
+  /*border:1px solid #000;*/
+}
+
+.note .notes_title{
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.note .notes_description{
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.note .notes_actions{
+  float: left;
+  padding: 10px;
+  margin: 30px 0;
+  /*border:1px solid #000;*/
+}
+
+
+.note .notes_actions span{
+  margin-top: 5px;
+  padding: 5px;
+  border:1px solid #ccc;
+  text-align: center;
+  /*width: 150px;*/
+  color: #fff;
+  background: #ccc;
+  /*display: inline-block;*/
+  float: left;
+}
+
+.editable{
+  border: 2px solid #ccc;
+  padding: 8px !important;
+}
+.editDesc{
+  height: 80px;
+  overflow: auto;
+  margin-top: 5px;
+}
+
+textarea{
+  border: 2px solid #808080;
+  box-shadow: none;
+  font-size: 14px;
+  margin-bottom: 1em;
+  width: 290px;
+  padding: 12px;
+  margin-top:20px;
+  outline: none;
+  opacity: 0.8;
+  color: #4D4D4D;
+  resize: none;
+  height: 120px;
+  overflow: hidden;
+}
+
+.edit_note{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  cursor: pointer;
+}
+.save_note{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  cursor: pointer;
+}
+
+.delete_note{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+
+.search_result{
+  font-size: 16px;
+  margin: 10px;
+  padding-top: 42px;
+  text-align: center;
+}
+.search{
+   background: url("../image/search.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: block;
+  height: 113px;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  width: 25px;
+}
+.search_wrapper{
+  display: none;
+  position: relative;
+  margin-right: 20px;
+}
+
+.pull-right{
+  float: right;
+}
